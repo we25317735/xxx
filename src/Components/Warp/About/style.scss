@@ -1,0 +1,42 @@
+$md-lg: 768px;
+
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color: #eff2f0;
+
+    header{
+        padding: 1rem;
+        
+        background-color: #e3dedee1;
+        box-shadow: 1px 1px 1px 1px #e4e4e548;
+        
+        display: flex;
+        justify-content: end;
+
+        
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 250px;
+
+        @media screen and (max-width: $md-lg) {
+            position: sticky;
+            height: 70px;
+            top: 70px; //配合List組件header高度
+        
+        }
+     
+    }
+
+    section{
+
+        .technology-list{
+            background-color: #9c2828;
+
+            .technology-box{
+                width: 50px;
+            }
+        }
+    }
+}

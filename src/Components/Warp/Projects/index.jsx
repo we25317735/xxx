@@ -26,9 +26,6 @@ const Projects = () => {
   }, []);
 
 
-
-
-
   //換頁功能,此處供 filteredData 使用
   const pageCount = Math.ceil(filteredData.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;

@@ -2,6 +2,8 @@ import React, { useState, useEffect} from 'react';
 import "./style.css";
 import "./Record.css";
 
+// import "../../../../../FullCalendar 日曆筆記/index.html"
+
 import * as CardPicture from './CardPicture/Img'; // 導入图片
 
 import { Swiper, SwiperSlide } from 'swiper/react'; //Swiper載入
@@ -41,11 +43,11 @@ const ProjectCard = (props) => {
         setCardHover(false);
     };
 
-    // console.log(imageArray)
+   // console.log(props.data.link); //連結,看要放什麼
 
     return (
-        <div id='ProjectCard' className='col-4'>
-            <a href="#">
+        <div id='ProjectCard' className='col-12 col-md-4'>
+            <a href="">
                 <div id="card-component" className='mx-auto mt-3 mb-1' onMouseEnter={MouseEnter} onMouseLeave={MouseLeave}>
                     <div className="card-module">
                         <div className="title">

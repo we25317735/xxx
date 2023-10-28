@@ -8,7 +8,6 @@ const Warp = () => {
 
   const [componentToRender, setComponentToRender] = useState(<WarpComponents.About />); //儲存傳過來的模組,預設顯示個人資料
 
-  console.log(componentToRender);
 
   useEffect(() => {
 
