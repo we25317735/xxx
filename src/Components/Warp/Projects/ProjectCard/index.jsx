@@ -31,7 +31,9 @@ const ProjectCard = (props) => {
         for (let i = 1; i <= PictureLength; i++) {
             newImageArray.push(CardPicture[`img00${ID}_${i}`]);
         }
+
         setImageArray(newImageArray);
+
     }, [ID, PictureLength]);
 
     

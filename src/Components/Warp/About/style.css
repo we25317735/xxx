@@ -1,40 +1,34 @@
 #about {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #eff2f0;
 }
-
 #about header {
-  padding: 1rem;
-  background-color: #e3dedee1;
-  -webkit-box-shadow: 1px 1px 1px 1px #e4e4e548;
-          box-shadow: 1px 1px 1px 1px #e4e4e548;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  padding: 6px;
+  box-shadow: 1px 1px 1px 1px #e4e4e5;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
   position: fixed;
   top: 0;
   right: 0;
   left: 250px;
 }
-
 @media screen and (max-width: 768px) {
   #about header {
-    position: -webkit-sticky;
     position: sticky;
     height: 70px;
     top: 70px;
   }
 }
-
-#about section .technology-list {
-  background-color: #9c2828;
+#about #About-me {
+  margin-top: 100px;
 }
-
-#about section .technology-list .technology-box {
-  width: 50px;
+#about #About-me img {
+  width: 220px;
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-/*# sourceMappingURL=style.css.map */
+#about #Experience {
+  margin-top: 100px;
+}/*# sourceMappingURL=style.css.map */

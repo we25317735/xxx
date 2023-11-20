@@ -45,7 +45,8 @@ const Warp = () => {
 
   return (
     <div id='Wrap'>
-      {componentToRender}
+      {/* {componentToRender} */}
+      <WarpComponents.Connection />
     </div>
   );
 }

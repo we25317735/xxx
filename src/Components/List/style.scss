@@ -64,6 +64,7 @@ $md-lg: 768px;
                     transition: all .2s;
 
                     &:hover{
+                        cursor: pointer;
                         border-radius: 0;
                         background-color: #ab4343;
                         transition: all 1s;

@@ -13,8 +13,10 @@ const DataCard = () => {
     // 发送 Axios 请求
     axios.get('http://localhost:3004/posts')
       .then(function (response) {
+
         const reversedData = response.data.reverse();
         setArry(reversedData);
+
 
         // 发布数据到 PubSub
         PubSub.publish("axios", response.data);

@@ -7,7 +7,6 @@ const List = () => {
   let [ItemStr, setItemStr] = useState([
     "個人資料",
     "我的作品",
-    "場內人員",
     "重要行事",
     "與我聯絡"
   ])

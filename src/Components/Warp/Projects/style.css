@@ -1,13 +1,11 @@
 #Projects header {
-  background-color: #e3dedee1;
+  background-color: rgba(227, 222, 222, 0.8823529412);
   position: fixed;
   top: 0;
   left: 250px;
   right: 0;
   z-index: 2;
 }
-
 #Projects #Pagination {
   background-color: #fff;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
